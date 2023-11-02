@@ -1,4 +1,40 @@
+/* inline tags has high priority */
 
 h1{
-    color:blue;
+    color:purple;
   } 
+
+p{
+    color:brown;
+  }
+
+button{
+  color:red;
+  background-color:green;
+      }
+
+body{
+  background-color:black;
+    }
+/* universal selector poore pase pe apply hoga font jaise same rhna page pe to vaha */
+    *{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+/*  baad me likhi hue format ko jayada priority milti hai ex */
+p{
+  font-style:Italic;
+ }
+/* #id selector */
+ #headingone{
+  color:yellow;
+ }
+ #headingtwo{
+  color:aqua;
+ }
+ #headingthree{
+  color:magenta;
+ }
+
+ .myclass{
+  color:white;
+ }
