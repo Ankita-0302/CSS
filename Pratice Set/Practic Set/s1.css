@@ -1,4 +1,45 @@
-#box{
-    background-color: yellowgreen;
 
+#traffic{
+    
+    background-color:black;
+    height:300px;
+    width: 200px;
+    color: aliceblue;
+    text-align:center;
+    margin: auto;
+    margin-top:20px;
+
+}
+#red{
+    height:50px;
+    width: 50px;
+    border-radius:50%;
+    background-color: red; 
+    text-align:center;
+    margin: auto;
+    margin-top:20px; 
+}
+#green{
+    height:50px;
+    width: 50px;
+    border-radius:50%;
+    background-color: green; 
+    text-align:center;
+    margin: auto;
+    margin-top:20px;
+}
+#yellow{
+    height:50px;
+    width: 50px;
+    border-radius:50%;
+    background-color: yellow; 
+    text-align:center;
+    margin: auto;
+    margin-top:20px;
+}
+#rod{
+    height:100px;
+    width: 50px;
+    margin: auto;
+    background-color:black;
 }
