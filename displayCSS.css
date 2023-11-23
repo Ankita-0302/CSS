@@ -1,0 +1,22 @@
+#d1{
+    background-color: red;
+}
+#d2{
+    background-color:blue;
+ /*   display: none;              // it will remove the element as well as space from the scren next element will   
+                                     occupy the space*/
+    visibility: hidden; /*        // it will reserved the space of the elemnt only the element from that space 
+                                     will be removed */
+}
+#d3{
+    background-color:green;
+}
+div{
+    width:100px;
+    height:100px;
+    margin:25px;
+    padding:25px;
+ /* display: inline;    // takes only the space required by the element.(no margin/padding).*/
+    display:inline-block ;  /* similar to inline but we can set margin and padding.*/
+
+}

@@ -24,6 +24,7 @@ h1{
 button{
   color:red;
   background-color:green;
+
       }
 
 body{
@@ -79,4 +80,5 @@ p{
   border-width: 5px;
   border-style: dashed;
   border-color: green;
+  display: inline;
  }
